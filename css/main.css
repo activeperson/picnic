@@ -183,9 +183,71 @@ body{
 	fill: #ffffff;
 }
 
-
-
-
+.title{
+	font-size: 40px;
+	color: #4c3a37;
+	font-family: M-Bold;
+	font-weight: 700;
+}
+.basket__name{
+	font-size: 15px;
+	color: #ffffff;
+	font-family: M-Medium;
+	font-weight: 500;
+}
+.basket{
+	display: flex;
+    align-items: center;
+	justify-content: space-between;
+	padding-left: 30px;
+}
+.menu-block__basket{
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.vertical-line{
+	width: 1px;
+    background: #ffffff;
+	top: -22.5px;
+    height: 70px;
+    display: block;
+    position: absolute;
+}
+.menu-block__basket > a{
+	width: 30px;
+	background-image: url(../images/icons/facebook.svg);
+	height: 30px;
+	display: inline-block;
+}
+.basket__ico{
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	background-image: url(../images/icons/cart.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 100%;
+	background-color: #ffffff;
+	position: relative;
+	background-size: 16px;
+	margin-right: 12px;
+}
+.basket__counter{
+	border-radius: 100%;
+    width: 17px;
+    display: block;
+    position: absolute;
+	height: 17px;
+	background: #ed2929;
+    font-size: 11px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 2px;
+	padding-right: 1px;
+	top: -7px;
+    right: -10px;
+}
 
 
 
